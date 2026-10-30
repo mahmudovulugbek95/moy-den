@@ -1,0 +1,40 @@
+# Данные пользователя (программа создаёт их сама рядом с собой при запуске из исходников)
+data.json
+data.json.*
+settings.json
+calendars.local.json
+calendars.local.json.*
+помидоро.json
+помидоро.json.*
+окно.json
+кэш-погоды.json
+кэш-календаря/
+профиль-окна/
+резерв/
+настройки-установки.json
+установка.json
+значок-уведомлений.png
+*.log
+*.log.*
+*.bak
+*.tmp
+
+# Сборка
+_сборка/
+build/
+dist/
+*.spec
+*.exe
+*.lnk
+
+# Python, Node, кэш
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+
+# Проверки: результаты, снимки, временное
+tests/*-результат.json
+tests/скриншоты/
+скриншоты/

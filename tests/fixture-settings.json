@@ -1,0 +1,35 @@
+{
+  "_инструкция": [
+    "Настройки «Мой день» для проверок. weather.cities — города погоды: первый крупно, остальные строкой ниже; enabled: false — скрыт.",
+    "calendar.taskHour — час для срока без времени. theme — light или dark. wallpaper — режим обоев."
+  ],
+  "theme": "light",
+  "calendar": {
+    "taskHour": "18:00"
+  },
+  "weather": {
+    "enabled": true,
+    "cities": [
+      {
+        "name": "Найроби",
+        "lat": -1.2921,
+        "lon": 36.8219,
+        "tz": "Africa/Nairobi",
+        "enabled": true
+      },
+      {
+        "name": "Токио",
+        "lat": 35.6762,
+        "lon": 139.6503,
+        "tz": "Asia/Tokyo",
+        "enabled": false
+      }
+    ]
+  },
+  "wallpaper": {
+    "window": false,
+    "iconsStrip": 120,
+    "left": 110,
+    "bottom": 48
+  }
+}

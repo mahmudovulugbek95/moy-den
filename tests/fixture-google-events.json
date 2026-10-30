@@ -1,0 +1,42 @@
+{
+  "source": "фикстура e2e",
+  "synced_at": "{NOW}",
+  "calendars": [
+    {
+      "id": "work",
+      "name": "Рабочий",
+      "color": "#E8833A"
+    },
+    {
+      "id": "personal",
+      "name": "Личный",
+      "color": "#4285F4"
+    }
+  ],
+  "events": [
+    {
+      "id": "fx-brand",
+      "calendar": "work",
+      "title": "Напоминание: встреча по брендбуку",
+      "start": "{TODAY}T15:00:00+03:00",
+      "end": "{TODAY}T15:30:00+03:00",
+      "allDay": false
+    },
+    {
+      "id": "fx-atlas",
+      "calendar": "work",
+      "title": "Напоминание: разбор референсов Атлас",
+      "start": "{TODAY}T16:00:00+03:00",
+      "end": "{TODAY}T17:00:00+03:00",
+      "allDay": false
+    },
+    {
+      "id": "fx-pers",
+      "calendar": "personal",
+      "title": "Личное: врач",
+      "start": "{TODAY}T08:00:00+03:00",
+      "end": "{TODAY}T08:30:00+03:00",
+      "allDay": false
+    }
+  ]
+}

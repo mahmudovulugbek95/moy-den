@@ -1,0 +1,150 @@
+{
+  "updated": "2026-10-22",
+  "limitWIP": 3,
+  "employees": [
+    {
+      "name": "Борис",
+      "role": "арт-директор"
+    },
+    {
+      "name": "Нина",
+      "role": "менеджер проектов"
+    },
+    {
+      "name": "Денис",
+      "role": "веб-разработчик"
+    },
+    {
+      "name": "Влад",
+      "role": "дизайнер"
+    }
+  ],
+  "projects": [
+    {
+      "id": "portal",
+      "name": "Магазин Портал",
+      "stage": "вёрстка каталога",
+      "status": "ok",
+      "deadline": "",
+      "owner": "Борис",
+      "note": "каталог свёрстан наполовину"
+    },
+    {
+      "id": "lumen",
+      "name": "LUMEN",
+      "stage": "видео и анимация",
+      "status": "ok",
+      "deadline": "",
+      "owner": "Борис",
+      "note": "звук на паузе"
+    },
+    {
+      "id": "zeta",
+      "name": "ZETA",
+      "stage": "разбор референсов",
+      "status": "ok",
+      "deadline": "",
+      "owner": "Нина",
+      "note": ""
+    },
+    {
+      "id": "kedr",
+      "name": "Кедр",
+      "stage": "разбор референсов",
+      "status": "ok",
+      "deadline": "",
+      "owner": "Борис",
+      "note": ""
+    },
+    {
+      "id": "panda",
+      "name": "Red Panda",
+      "stage": "тексты",
+      "status": "ok",
+      "deadline": "",
+      "owner": "",
+      "note": "",
+      "aliases": [
+        "Ред Панда",
+        "Рэд Панда"
+      ]
+    },
+    {
+      "id": "velo",
+      "name": "ВелоМир",
+      "stage": "адаптив, 12 шаблонов",
+      "status": "risk",
+      "deadline": "",
+      "owner": "",
+      "note": "риск: 3 браузера и 12 шаблонов",
+      "aliases": [
+        "Веломир",
+        "Велмир",
+        "Velomir",
+        "Вело Мир"
+      ]
+    },
+    {
+      "id": "brand",
+      "name": "Брендбук",
+      "stage": "показ 23.10",
+      "status": "ok",
+      "deadline": "2026-10-23",
+      "owner": "Борис",
+      "note": ""
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "project": "brand",
+      "title": "Встреча по брендбуку",
+      "who": "Борис",
+      "due": "2026-10-23",
+      "state": "work"
+    },
+    {
+      "id": 2,
+      "project": "zeta",
+      "title": "Разбор референсов",
+      "who": "Нина",
+      "due": "2026-10-22",
+      "state": "work"
+    },
+    {
+      "id": 3,
+      "project": "kedr",
+      "title": "Разбор референсов",
+      "who": "Борис",
+      "due": "2026-10-22",
+      "state": "work"
+    },
+    {
+      "id": 90,
+      "project": "portal",
+      "title": "ПРИМЕР: проверить вёрстку страниц 3–5",
+      "who": "Нина",
+      "due": "2026-10-21",
+      "state": "work",
+      "example": true
+    },
+    {
+      "id": 91,
+      "project": "panda",
+      "title": "ПРИМЕР: собрать тексты",
+      "who": "Влад",
+      "due": "2026-10-25",
+      "state": "wait",
+      "example": true
+    },
+    {
+      "id": 92,
+      "project": "lumen",
+      "title": "ПРИМЕР: выбрать шрифт заголовков",
+      "who": "Борис",
+      "due": "",
+      "state": "work",
+      "example": true
+    }
+  ]
+}
